@@ -9,7 +9,7 @@ import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client'; //
 const client = new ApolloClient({
   uri: 'http://localhost:4005/graphql',
   // Replace with your GraphQL server URL
-   url: "https://capstone-finalproject-server.onrender.com",
+  // url: "https://capstone-finalproject-server.onrender.com",
   cache: new InMemoryCache(),
 });
 
